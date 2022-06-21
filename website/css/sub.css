@@ -1,0 +1,41 @@
+.subh1{
+	font-size: xx-large;
+	padding-bottom: 16px;
+	color: var(--color-primary);
+}
+.sectionsub{
+	margin: 32px auto 0;
+	background: var(--bg);
+	border-radius: var(--border-radius);
+	padding: 24px 48px;
+}
+/*----------パンクズstart----------*/
+.crumbsection{
+	margin: 64px auto 0;
+}
+.crumbwrap a{
+	color: #999;
+}
+.crumbol{
+	display: flex;
+}
+.crumbli{
+	padding-right:0.5em;
+}
+.crumbli:last-child a {
+	color: #000;
+}
+/*----------パンクズend----------*/
+.downroadli{
+	display: block;
+}
+.downloadh2{
+	font-size: x-large;
+	width: 100%;
+	margin-bottom: 4px;
+}
+@media screen and (max-width:599px){
+	.sectionsub{
+		padding: 24px;
+	}
+}
